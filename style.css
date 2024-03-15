@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url("44.jpg");/*设置背景图片*/
+    background: url("background.jpg");/*设置背景图片*/
     background-repeat: no-repeat;
     background-attachment: fixed;/*设置背景图不随网页滑动而改变*/
     background-size: cover;
@@ -85,7 +85,7 @@ audio {
 #biaoti {
     text-align: center;
 }
-#qita {
+#subtitle {
     text-align: right;
 }
 /* 列后面清除浮动 */
@@ -101,9 +101,9 @@ audio {
     right: 50px;
     width: 40px;
     height: 30px;
-    animation: muscis 5s linear infinite;
+    animation: musics 5s linear infinite;
 }
-@keyframes muscis {
+@keyframes musics {
     from {
         transform: rotate (0deg);
         opacity: .6;
@@ -115,7 +115,7 @@ audio {
     }
 }
 
-.yinyue {
+.music {
     display: flex;
     justify-content: space-between;
     padding: 0 400px;
